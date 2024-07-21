@@ -75,40 +75,52 @@ template <typename T> inline bool chmax(T& a, const T& b) {bool compare = a < b;
 // template <typename T> inline T lcm(T a, T b) {return (a * b) / gcd(a, b);}
 // clang-format on
 
-int main() {
-    ll n;
-    cin >> n;
+// dijkstra
+// dijkstra
+vll dijkstra(int n, vector<vector<pair<ll, ll>>> g, ll initial_value) {
+    priority_queue<pair<ll, int>, vector<pair<ll, int>>, greater<pair<ll, int>>>
+        que;
+    vll min_cost(n, LLONG_MAX);
+    que.push({initial_value, 0});
+    min_cost[0] = initial_value;
+    while (!que.empty()) {
+        auto [d, u] = que.top();
+        que.pop();
+        if (min_cost[u] != d) continue;
+        for (auto [b, v] : g[u]) {
+            ll new_dist = min_cost[u] + b;
+            if (min_cost[v] <= new_dist) continue;
+            min_cost[v] = new_dist;
+            que.push({new_dist, v});
+        }
+    }
+    return min_cost;
+}
 
-    vector<pair<ll, ll>> p;
-    for (ll i = 2; i * i <= n; i++) {
-        if (n % i) continue;
-        string x = to_string(i);
-        string y = x;
-        if (x.find("0") != string::npos) continue;
-        reverse(all(y));
-        ll j = stoll(y);
-        if (n % j) continue;
-        if (i <= j) p.pb({i, j});
+int main() {
+    // code
+    int n, m;
+    cin >> n >> m;
+
+    vll a(n);
+    rep(i, n) cin >> a[i];
+
+    vector<vector<pair<ll, ll>>> g(n);
+    rep(i, m) {
+        int u, v;
+        ll b;
+        cin >> u >> v >> b;
+        u--;
+        v--;
+        g[u].pb({b + a[v], v});
+        g[v].pb({b + a[u], u});
     }
 
-    auto f = [&](auto f, ll n) {
-        string s = to_string(n);
-        string rs = s;
-        reverse(all(rs));
-        if (s == rs && s.find("0") == string::npos) return s;
+    vll min_cost = dijkstra(n, g, a[0]);
 
-        for (int i = 0; i < p.size(); i++) {
-            // debug(p[i].first);
-            // debug(p[i].second);
-            ll xy = p[i].first * p[i].second;
-            if (n % xy) continue;
-            string t = f(f, n / xy);
-            if (t != "-1")
-                return to_string(p[i].first) + "*" + t + "*" +
-                       to_string(p[i].second);
-        }
-        return string("-1");
-    };
-    print(f(f, n));
+    for (int i = 1; i < n; i++) {
+        cout << min_cost[i] << " \n"[i == n - 1];
+    }
+
     return 0;
 }
