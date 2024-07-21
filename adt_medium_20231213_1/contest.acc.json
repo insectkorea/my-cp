@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20231213_1",
+    "title": "AtCoder Daily Training MEDIUM 2023/12/13 16:00start",
+    "url": "https://atcoder.jp/contests/adt_medium_20231213_1"
+  },
+  "tasks": [
+    {
+      "id": "abc317_b",
+      "label": "C",
+      "title": "MissingNo.",
+      "url": "https://atcoder.jp/contests/adt_medium_20231213_1/tasks/abc317_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc320_b",
+      "label": "D",
+      "title": "Longest Palindrome",
+      "url": "https://atcoder.jp/contests/adt_medium_20231213_1/tasks/abc320_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc239_c",
+      "label": "E",
+      "title": "Knight Fork",
+      "url": "https://atcoder.jp/contests/adt_medium_20231213_1/tasks/abc239_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc320_c",
+      "label": "F",
+      "title": "Slot Strategy 2 (Easy)",
+      "url": "https://atcoder.jp/contests/adt_medium_20231213_1/tasks/abc320_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc274_d",
+      "label": "G",
+      "title": "Robot Arms 2",
+      "url": "https://atcoder.jp/contests/adt_medium_20231213_1/tasks/abc274_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

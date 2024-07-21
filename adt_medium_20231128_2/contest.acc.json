@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20231128_2",
+    "title": "AtCoder Daily Training MEDIUM 2023/11/28 17:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20231128_2"
+  },
+  "tasks": [
+    {
+      "id": "abc306_b",
+      "label": "C",
+      "title": "Base 2",
+      "url": "https://atcoder.jp/contests/adt_medium_20231128_2/tasks/abc306_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc257_b",
+      "label": "D",
+      "title": "1D Pawn",
+      "url": "https://atcoder.jp/contests/adt_medium_20231128_2/tasks/abc257_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc292_c",
+      "label": "E",
+      "title": "Four Variables",
+      "url": "https://atcoder.jp/contests/adt_medium_20231128_2/tasks/abc292_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc254_c",
+      "label": "F",
+      "title": "K Swap",
+      "url": "https://atcoder.jp/contests/adt_medium_20231128_2/tasks/abc254_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc238_d",
+      "label": "G",
+      "title": "AND and SUM",
+      "url": "https://atcoder.jp/contests/adt_medium_20231128_2/tasks/abc238_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

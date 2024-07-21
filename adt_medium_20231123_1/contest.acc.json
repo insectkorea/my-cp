@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20231123_1",
+    "title": "AtCoder Daily Training MEDIUM 2023/11/2316:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20231123_1"
+  },
+  "tasks": [
+    {
+      "id": "abc286_b",
+      "label": "C",
+      "title": "Cat",
+      "url": "https://atcoder.jp/contests/adt_medium_20231123_1/tasks/abc286_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc221_b",
+      "label": "D",
+      "title": "typo",
+      "url": "https://atcoder.jp/contests/adt_medium_20231123_1/tasks/abc221_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc243_c",
+      "label": "E",
+      "title": "Collision 2",
+      "url": "https://atcoder.jp/contests/adt_medium_20231123_1/tasks/abc243_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc255_c",
+      "label": "F",
+      "title": "±1 Operation 1 ",
+      "url": "https://atcoder.jp/contests/adt_medium_20231123_1/tasks/abc255_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc284_d",
+      "label": "G",
+      "title": "Happy New Year 2023 ",
+      "url": "https://atcoder.jp/contests/adt_medium_20231123_1/tasks/abc284_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

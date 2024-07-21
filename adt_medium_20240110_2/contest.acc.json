@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20240110_2",
+    "title": "AtCoder Daily Training MEDIUM 2024/1/10 18:00start",
+    "url": "https://atcoder.jp/contests/adt_medium_20240110_2"
+  },
+  "tasks": [
+    {
+      "id": "abc276_b",
+      "label": "C",
+      "title": "Adjacency List",
+      "url": "https://atcoder.jp/contests/adt_medium_20240110_2/tasks/abc276_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc319_b",
+      "label": "D",
+      "title": "Measure",
+      "url": "https://atcoder.jp/contests/adt_medium_20240110_2/tasks/abc319_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc243_c",
+      "label": "E",
+      "title": "Collision 2",
+      "url": "https://atcoder.jp/contests/adt_medium_20240110_2/tasks/abc243_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc258_c",
+      "label": "F",
+      "title": "Rotation",
+      "url": "https://atcoder.jp/contests/adt_medium_20240110_2/tasks/abc258_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc322_d",
+      "label": "G",
+      "title": "Polyomino",
+      "url": "https://atcoder.jp/contests/adt_medium_20240110_2/tasks/abc322_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

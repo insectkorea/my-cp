@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20231031_1",
+    "title": "AtCoder Daily Training MEDIUM 2023/10/31 15:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20231031_1"
+  },
+  "tasks": [
+    {
+      "id": "abc297_b",
+      "label": "C",
+      "title": "chess960",
+      "url": "https://atcoder.jp/contests/adt_medium_20231031_1/tasks/abc297_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc266_b",
+      "label": "D",
+      "title": "Modulo Number",
+      "url": "https://atcoder.jp/contests/adt_medium_20231031_1/tasks/abc266_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc301_c",
+      "label": "E",
+      "title": "AtCoder Cards",
+      "url": "https://atcoder.jp/contests/adt_medium_20231031_1/tasks/abc301_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc230_c",
+      "label": "F",
+      "title": "X drawing",
+      "url": "https://atcoder.jp/contests/adt_medium_20231031_1/tasks/abc230_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc219_d",
+      "label": "G",
+      "title": "Strange Lunchbox",
+      "url": "https://atcoder.jp/contests/adt_medium_20231031_1/tasks/abc219_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

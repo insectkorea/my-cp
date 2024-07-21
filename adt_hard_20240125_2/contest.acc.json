@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_hard_20240125_2",
+    "title": "AtCoder Daily Training HARD 2024/01/25 18:30start",
+    "url": "https://atcoder.jp/contests/adt_hard_20240125_2"
+  },
+  "tasks": [
+    {
+      "id": "abc319_c",
+      "label": "E",
+      "title": "False Hope",
+      "url": "https://atcoder.jp/contests/adt_hard_20240125_2/tasks/abc319_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc254_c",
+      "label": "F",
+      "title": "K Swap",
+      "url": "https://atcoder.jp/contests/adt_hard_20240125_2/tasks/abc254_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc236_d",
+      "label": "G",
+      "title": "Dance",
+      "url": "https://atcoder.jp/contests/adt_hard_20240125_2/tasks/abc236_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc275_e",
+      "label": "H",
+      "title": "Sugoroku 4",
+      "url": "https://atcoder.jp/contests/adt_hard_20240125_2/tasks/abc275_e",
+      "directory": {
+        "path": "h",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc247_f",
+      "label": "I",
+      "title": "Cards",
+      "url": "https://atcoder.jp/contests/adt_hard_20240125_2/tasks/abc247_f",
+      "directory": {
+        "path": "i",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

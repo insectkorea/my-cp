@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20231214_1",
+    "title": "AtCoder Daily Training MEDIUM 2023/12/14 16:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20231214_1"
+  },
+  "tasks": [
+    {
+      "id": "abc304_b",
+      "label": "C",
+      "title": "Subscribers",
+      "url": "https://atcoder.jp/contests/adt_medium_20231214_1/tasks/abc304_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc322_b",
+      "label": "D",
+      "title": "Prefix and Suffix",
+      "url": "https://atcoder.jp/contests/adt_medium_20231214_1/tasks/abc322_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc278_c",
+      "label": "E",
+      "title": "FF",
+      "url": "https://atcoder.jp/contests/adt_medium_20231214_1/tasks/abc278_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc317_c",
+      "label": "F",
+      "title": "Remembering the Days",
+      "url": "https://atcoder.jp/contests/adt_medium_20231214_1/tasks/abc317_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc262_d",
+      "label": "G",
+      "title": "I Hate Non-integer Number",
+      "url": "https://atcoder.jp/contests/adt_medium_20231214_1/tasks/abc262_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

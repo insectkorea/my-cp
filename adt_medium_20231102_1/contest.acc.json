@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20231102_1",
+    "title": "AtCoder Daily Training MEDIUM 2023/11/2 16:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20231102_1"
+  },
+  "tasks": [
+    {
+      "id": "abc296_b",
+      "label": "C",
+      "title": "Chessboard",
+      "url": "https://atcoder.jp/contests/adt_medium_20231102_1/tasks/abc296_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc281_b",
+      "label": "D",
+      "title": "Sandwich Number",
+      "url": "https://atcoder.jp/contests/adt_medium_20231102_1/tasks/abc281_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc228_c",
+      "label": "E",
+      "title": "Final Day",
+      "url": "https://atcoder.jp/contests/adt_medium_20231102_1/tasks/abc228_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc273_c",
+      "label": "F",
+      "title": "(K+1)-th Largest Number",
+      "url": "https://atcoder.jp/contests/adt_medium_20231102_1/tasks/abc273_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc280_d",
+      "label": "G",
+      "title": "Factorial and Multiple",
+      "url": "https://atcoder.jp/contests/adt_medium_20231102_1/tasks/abc280_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

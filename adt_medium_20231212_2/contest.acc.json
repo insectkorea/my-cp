@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20231212_2",
+    "title": "AtCoder Daily Training MEDIUM 2023/12/12 17:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20231212_2"
+  },
+  "tasks": [
+    {
+      "id": "abc315_b",
+      "label": "C",
+      "title": "The Middle Day",
+      "url": "https://atcoder.jp/contests/adt_medium_20231212_2/tasks/abc315_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc324_b",
+      "label": "D",
+      "title": "3-smooth Numbers",
+      "url": "https://atcoder.jp/contests/adt_medium_20231212_2/tasks/abc324_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc259_c",
+      "label": "E",
+      "title": "XX to XXX",
+      "url": "https://atcoder.jp/contests/adt_medium_20231212_2/tasks/abc259_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc307_c",
+      "label": "F",
+      "title": "Ideal Sheet",
+      "url": "https://atcoder.jp/contests/adt_medium_20231212_2/tasks/abc307_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc226_d",
+      "label": "G",
+      "title": "Teleportation",
+      "url": "https://atcoder.jp/contests/adt_medium_20231212_2/tasks/abc226_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

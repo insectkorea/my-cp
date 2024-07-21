@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20231115_1",
+    "title": "AtCoder Daily Training MEDIUM 2023/11/15 16:00start",
+    "url": "https://atcoder.jp/contests/adt_medium_20231115_1"
+  },
+  "tasks": [
+    {
+      "id": "abc252_b",
+      "label": "C",
+      "title": "Takahashi's Failure",
+      "url": "https://atcoder.jp/contests/adt_medium_20231115_1/tasks/abc252_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc247_b",
+      "label": "D",
+      "title": "Unique Nicknames",
+      "url": "https://atcoder.jp/contests/adt_medium_20231115_1/tasks/abc247_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc310_c",
+      "label": "E",
+      "title": "Reversible",
+      "url": "https://atcoder.jp/contests/adt_medium_20231115_1/tasks/abc310_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc227_c",
+      "label": "F",
+      "title": "ABC conjecture",
+      "url": "https://atcoder.jp/contests/adt_medium_20231115_1/tasks/abc227_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc239_d",
+      "label": "G",
+      "title": "Prime Sum Game",
+      "url": "https://atcoder.jp/contests/adt_medium_20231115_1/tasks/abc239_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

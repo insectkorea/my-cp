@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20231108_1",
+    "title": "AtCoder Daily Training MEDIUM 2023/11/8 16:00start",
+    "url": "https://atcoder.jp/contests/adt_medium_20231108_1"
+  },
+  "tasks": [
+    {
+      "id": "abc236_b",
+      "label": "C",
+      "title": "Who is missing?",
+      "url": "https://atcoder.jp/contests/adt_medium_20231108_1/tasks/abc236_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc251_b",
+      "label": "D",
+      "title": "At Most 3 (Judge ver.)",
+      "url": "https://atcoder.jp/contests/adt_medium_20231108_1/tasks/abc251_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc220_c",
+      "label": "E",
+      "title": "Long Sequence",
+      "url": "https://atcoder.jp/contests/adt_medium_20231108_1/tasks/abc220_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc282_c",
+      "label": "F",
+      "title": "String Delimiter",
+      "url": "https://atcoder.jp/contests/adt_medium_20231108_1/tasks/abc282_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc218_d",
+      "label": "G",
+      "title": "Rectangles",
+      "url": "https://atcoder.jp/contests/adt_medium_20231108_1/tasks/abc218_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

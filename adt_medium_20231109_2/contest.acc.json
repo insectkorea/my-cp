@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20231109_2",
+    "title": "AtCoder Daily Training MEDIUM 2023/11/9 18:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20231109_2"
+  },
+  "tasks": [
+    {
+      "id": "abc280_b",
+      "label": "C",
+      "title": "Inverse Prefix Sum",
+      "url": "https://atcoder.jp/contests/adt_medium_20231109_2/tasks/abc280_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc260_b",
+      "label": "D",
+      "title": "Better Students Are Needed!",
+      "url": "https://atcoder.jp/contests/adt_medium_20231109_2/tasks/abc260_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc261_c",
+      "label": "E",
+      "title": "NewFolder(1)",
+      "url": "https://atcoder.jp/contests/adt_medium_20231109_2/tasks/abc261_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc232_c",
+      "label": "F",
+      "title": "Graph Isomorphism",
+      "url": "https://atcoder.jp/contests/adt_medium_20231109_2/tasks/abc232_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc282_d",
+      "label": "G",
+      "title": "Make Bipartite 2",
+      "url": "https://atcoder.jp/contests/adt_medium_20231109_2/tasks/abc282_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

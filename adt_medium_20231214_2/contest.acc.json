@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20231214_2",
+    "title": "AtCoder Daily Training MEDIUM 2023/12/14 18:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20231214_2"
+  },
+  "tasks": [
+    {
+      "id": "abc233_b",
+      "label": "C",
+      "title": "A Reverse",
+      "url": "https://atcoder.jp/contests/adt_medium_20231214_2/tasks/abc233_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc318_b",
+      "label": "D",
+      "title": "Overlapping sheets",
+      "url": "https://atcoder.jp/contests/adt_medium_20231214_2/tasks/abc318_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc267_c",
+      "label": "E",
+      "title": "Index × A(Continuous ver.)",
+      "url": "https://atcoder.jp/contests/adt_medium_20231214_2/tasks/abc267_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc312_c",
+      "label": "F",
+      "title": "Invisible Hand",
+      "url": "https://atcoder.jp/contests/adt_medium_20231214_2/tasks/abc312_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc254_d",
+      "label": "G",
+      "title": "Together Square",
+      "url": "https://atcoder.jp/contests/adt_medium_20231214_2/tasks/abc254_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

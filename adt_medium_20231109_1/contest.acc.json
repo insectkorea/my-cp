@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20231109_1",
+    "title": "AtCoder Daily Training MEDIUM 2023/11/9 16:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20231109_1"
+  },
+  "tasks": [
+    {
+      "id": "abc235_b",
+      "label": "C",
+      "title": "Climbing Takahashi",
+      "url": "https://atcoder.jp/contests/adt_medium_20231109_1/tasks/abc235_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc282_b",
+      "label": "D",
+      "title": "Let's Get a Perfect Score",
+      "url": "https://atcoder.jp/contests/adt_medium_20231109_1/tasks/abc282_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc315_c",
+      "label": "E",
+      "title": "Flavors",
+      "url": "https://atcoder.jp/contests/adt_medium_20231109_1/tasks/abc315_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc289_c",
+      "label": "F",
+      "title": "Coverage",
+      "url": "https://atcoder.jp/contests/adt_medium_20231109_1/tasks/abc289_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc296_d",
+      "label": "G",
+      "title": "M<=ab",
+      "url": "https://atcoder.jp/contests/adt_medium_20231109_1/tasks/abc296_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20231128_1",
+    "title": "AtCoder Daily Training MEDIUM 2023/11/28 15:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20231128_1"
+  },
+  "tasks": [
+    {
+      "id": "abc284_b",
+      "label": "C",
+      "title": "Multi Test Cases",
+      "url": "https://atcoder.jp/contests/adt_medium_20231128_1/tasks/abc284_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc259_b",
+      "label": "D",
+      "title": "Counterclockwise Rotation",
+      "url": "https://atcoder.jp/contests/adt_medium_20231128_1/tasks/abc259_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc213_c",
+      "label": "E",
+      "title": "Reorder Cards",
+      "url": "https://atcoder.jp/contests/adt_medium_20231128_1/tasks/abc213_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc308_c",
+      "label": "F",
+      "title": "Standings",
+      "url": "https://atcoder.jp/contests/adt_medium_20231128_1/tasks/abc308_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc306_d",
+      "label": "G",
+      "title": "Poisonous Full-Course",
+      "url": "https://atcoder.jp/contests/adt_medium_20231128_1/tasks/abc306_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

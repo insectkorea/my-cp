@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20231122_1",
+    "title": "AtCoder Daily Training MEDIUM 2023/11/22 16:00start",
+    "url": "https://atcoder.jp/contests/adt_medium_20231122_1"
+  },
+  "tasks": [
+    {
+      "id": "abc239_b",
+      "label": "C",
+      "title": "Integer Division",
+      "url": "https://atcoder.jp/contests/adt_medium_20231122_1/tasks/abc239_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc312_b",
+      "label": "D",
+      "title": "TaK Code",
+      "url": "https://atcoder.jp/contests/adt_medium_20231122_1/tasks/abc312_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc276_c",
+      "label": "E",
+      "title": "Previous Permutation",
+      "url": "https://atcoder.jp/contests/adt_medium_20231122_1/tasks/abc276_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc302_c",
+      "label": "F",
+      "title": "Almost Equal",
+      "url": "https://atcoder.jp/contests/adt_medium_20231122_1/tasks/abc302_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc277_d",
+      "label": "G",
+      "title": "Takahashi's Solitaire",
+      "url": "https://atcoder.jp/contests/adt_medium_20231122_1/tasks/abc277_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

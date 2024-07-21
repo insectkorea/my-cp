@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20231121_1",
+    "title": "AtCoder Daily Training MEDIUM 2023/11/21 15:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20231121_1"
+  },
+  "tasks": [
+    {
+      "id": "abc218_b",
+      "label": "C",
+      "title": "qwerty",
+      "url": "https://atcoder.jp/contests/adt_medium_20231121_1/tasks/abc218_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc300_b",
+      "label": "D",
+      "title": "Same Map in the RPG World",
+      "url": "https://atcoder.jp/contests/adt_medium_20231121_1/tasks/abc300_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc297_c",
+      "label": "E",
+      "title": "PC on the Table",
+      "url": "https://atcoder.jp/contests/adt_medium_20231121_1/tasks/abc297_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc258_c",
+      "label": "F",
+      "title": "Rotation",
+      "url": "https://atcoder.jp/contests/adt_medium_20231121_1/tasks/abc258_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc257_d",
+      "label": "G",
+      "title": "Jumping Takahashi 2",
+      "url": "https://atcoder.jp/contests/adt_medium_20231121_1/tasks/abc257_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20240111_2",
+    "title": "AtCoder Daily Training MEDIUM 2024/1/11 18:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20240111_2"
+  },
+  "tasks": [
+    {
+      "id": "abc217_b",
+      "label": "C",
+      "title": "AtCoder Quiz",
+      "url": "https://atcoder.jp/contests/adt_medium_20240111_2/tasks/abc217_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc321_b",
+      "label": "D",
+      "title": "Cutoff",
+      "url": "https://atcoder.jp/contests/adt_medium_20240111_2/tasks/abc321_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc236_c",
+      "label": "E",
+      "title": "Route Map",
+      "url": "https://atcoder.jp/contests/adt_medium_20240111_2/tasks/abc236_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc306_c",
+      "label": "F",
+      "title": "Centers",
+      "url": "https://atcoder.jp/contests/adt_medium_20240111_2/tasks/abc306_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc303_d",
+      "label": "G",
+      "title": "Shift vs. CapsLock",
+      "url": "https://atcoder.jp/contests/adt_medium_20240111_2/tasks/abc303_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

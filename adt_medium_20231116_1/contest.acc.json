@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20231116_1",
+    "title": "AtCoder Daily Training MEDIUM 2023/11/1616:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20231116_1"
+  },
+  "tasks": [
+    {
+      "id": "abc279_b",
+      "label": "C",
+      "title": "LOOKUP",
+      "url": "https://atcoder.jp/contests/adt_medium_20231116_1/tasks/abc279_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc275_b",
+      "label": "D",
+      "title": "ABC-DEF",
+      "url": "https://atcoder.jp/contests/adt_medium_20231116_1/tasks/abc275_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc229_c",
+      "label": "E",
+      "title": "Cheese",
+      "url": "https://atcoder.jp/contests/adt_medium_20231116_1/tasks/abc229_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc256_c",
+      "label": "F",
+      "title": "Filling 3x3 array",
+      "url": "https://atcoder.jp/contests/adt_medium_20231116_1/tasks/abc256_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc324_d",
+      "label": "G",
+      "title": "Square Permutation",
+      "url": "https://atcoder.jp/contests/adt_medium_20231116_1/tasks/abc324_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}
