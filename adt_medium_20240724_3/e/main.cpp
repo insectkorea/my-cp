@@ -75,48 +75,29 @@ template <typename T> inline bool chmax(T& a, const T& b) {bool compare = a < b;
 // template <typename T> inline T lcm(T a, T b) {return (a * b) / gcd(a, b);}
 // clang-format on
 
-const int MOD = 998244353;
-
 int main() {
-    int N;
-    cin >> N;
-    vector<long long> A(N);
-    for (int i = 0; i < N; ++i) {
-        cin >> A[i];
-    }
+    int n;
+    cin >> n;
+    vi a(n);
+    vll prefix_sum(n + 1, 0);
+    rep(i, n) { cin >> a[i]; }
+    vi sorted_a(a);
+    sort(all(sorted_a));
+    rep(i, n) { prefix_sum[i + 1] = prefix_sum[i] + sorted_a[i]; }
 
-    // dp[i][j][d] - number of subsequences of length j ending at index i with
-    // common difference d
-    vector<vector<unordered_map<long long, long long>>> dp(
-        N, vector<unordered_map<long long, long long>>(N + 1));
-
-    // Initialize the dp array for subsequences of length 1
-    for (int i = 0; i < N; ++i) {
-        dp[i][1][0] = 1;
-    }
-
-    // Fill the dp table
-    for (int j = 2; j <= N; ++j) {
-        for (int i = 0; i < N; ++i) {
-            for (int i_prev = 0; i_prev < i; ++i_prev) {
-                long long d = A[i] - A[i_prev];
-                if (dp[i_prev][j - 1].count(d)) {
-                    dp[i][j][d] = (dp[i][j][d] + dp[i_prev][j - 1][d]) % MOD;
-                }
-            }
+    rep(i, n) {
+        int target = upper_bound(all(sorted_a), a[i]) - sorted_a.begin();
+        // debug(target);
+        if (target == n) {
+            cout << "0" << " ";
+            continue;
         }
+        ll sum = prefix_sum[n] - prefix_sum[target];
+        // debug(prefix_sum[n]);
+        // debug(prefix_sum[target]);
+        cout << sum << " ";
     }
 
-    // Calculate the result for each length k
-    for (int k = 1; k <= N; ++k) {
-        long long result = 0;
-        for (int i = 0; i < N; ++i) {
-            for (const auto& [d, count] : dp[i][k]) {
-                result = (result + count) % MOD;
-            }
-        }
-        cout << result << endl;
-    }
-
+    // code
     return 0;
 }

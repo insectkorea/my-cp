@@ -75,48 +75,42 @@ template <typename T> inline bool chmax(T& a, const T& b) {bool compare = a < b;
 // template <typename T> inline T lcm(T a, T b) {return (a * b) / gcd(a, b);}
 // clang-format on
 
-const int MOD = 998244353;
-
 int main() {
-    int N;
-    cin >> N;
-    vector<long long> A(N);
-    for (int i = 0; i < N; ++i) {
-        cin >> A[i];
-    }
+    // code
+    ll n, x, y;
+    cin >> n >> x >> y;
+    vector<pair<ll, ll>> a(n);
+    rep(i, n) cin >> a[i].first;
+    rep(i, n) cin >> a[i].second;
 
-    // dp[i][j][d] - number of subsequences of length j ending at index i with
-    // common difference d
-    vector<vector<unordered_map<long long, long long>>> dp(
-        N, vector<unordered_map<long long, long long>>(N + 1));
+    sort(a.begin(), a.end(), [](const pair<ll, ll>& a, const pair<ll, ll>& b) {
+        return a.first > b.first;
+    });
 
-    // Initialize the dp array for subsequences of length 1
-    for (int i = 0; i < N; ++i) {
-        dp[i][1][0] = 1;
-    }
-
-    // Fill the dp table
-    for (int j = 2; j <= N; ++j) {
-        for (int i = 0; i < N; ++i) {
-            for (int i_prev = 0; i_prev < i; ++i_prev) {
-                long long d = A[i] - A[i_prev];
-                if (dp[i_prev][j - 1].count(d)) {
-                    dp[i][j][d] = (dp[i][j][d] + dp[i_prev][j - 1][d]) % MOD;
-                }
-            }
+    ll t_sweet = 0;
+    ll c_sweet = 0;
+    rep(i, n) {
+        t_sweet += a[i].first;
+        c_sweet++;
+        if (t_sweet > x) {
+            break;
         }
     }
 
-    // Calculate the result for each length k
-    for (int k = 1; k <= N; ++k) {
-        long long result = 0;
-        for (int i = 0; i < N; ++i) {
-            for (const auto& [d, count] : dp[i][k]) {
-                result = (result + count) % MOD;
-            }
+    sort(a.begin(), a.end(), [](const pair<ll, ll>& a, const pair<ll, ll>& b) {
+        return a.second > b.second;
+    });
+
+    ll t_salt = 0;
+    ll c_salt = 0;
+    rep(i, n) {
+        t_salt += a[i].second;
+        c_salt++;
+        if (t_salt > y) {
+            break;
         }
-        cout << result << endl;
     }
 
+    print(min(c_sweet, c_salt));
     return 0;
 }

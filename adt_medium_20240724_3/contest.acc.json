@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20240724_3",
+    "title": "AtCoder Daily Training MEDIUM 2024/07/24 20:00start",
+    "url": "https://atcoder.jp/contests/adt_medium_20240724_3"
+  },
+  "tasks": [
+    {
+      "id": "abc278_b",
+      "label": "C",
+      "title": "Misjudge the Time",
+      "url": "https://atcoder.jp/contests/adt_medium_20240724_3/tasks/abc278_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc347_b",
+      "label": "D",
+      "title": "Substring",
+      "url": "https://atcoder.jp/contests/adt_medium_20240724_3/tasks/abc347_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc331_c",
+      "label": "E",
+      "title": "Sum of Numbers Greater Than Me",
+      "url": "https://atcoder.jp/contests/adt_medium_20240724_3/tasks/abc331_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc272_c",
+      "label": "F",
+      "title": "Max Even",
+      "url": "https://atcoder.jp/contests/adt_medium_20240724_3/tasks/abc272_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc227_d",
+      "label": "G",
+      "title": "Project Planning",
+      "url": "https://atcoder.jp/contests/adt_medium_20240724_3/tasks/abc227_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

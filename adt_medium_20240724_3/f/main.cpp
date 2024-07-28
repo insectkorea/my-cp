@@ -75,47 +75,47 @@ template <typename T> inline bool chmax(T& a, const T& b) {bool compare = a < b;
 // template <typename T> inline T lcm(T a, T b) {return (a * b) / gcd(a, b);}
 // clang-format on
 
-const int MOD = 998244353;
-
 int main() {
-    int N;
-    cin >> N;
-    vector<long long> A(N);
-    for (int i = 0; i < N; ++i) {
-        cin >> A[i];
+    // code
+    int n;
+    cin >> n;
+    priority_queue<ll> pq;
+    rep(i, n) {
+        ll a;
+        cin >> a;
+        pq.push(a);
     }
+    ll even_ans = 0;
+    ll odd_ans = 0;
+    ll ans = 0;
+    int num_evens = 0;
+    int num_odds = 0;
 
-    // dp[i][j][d] - number of subsequences of length j ending at index i with
-    // common difference d
-    vector<vector<unordered_map<long long, long long>>> dp(
-        N, vector<unordered_map<long long, long long>>(N + 1));
-
-    // Initialize the dp array for subsequences of length 1
-    for (int i = 0; i < N; ++i) {
-        dp[i][1][0] = 1;
-    }
-
-    // Fill the dp table
-    for (int j = 2; j <= N; ++j) {
-        for (int i = 0; i < N; ++i) {
-            for (int i_prev = 0; i_prev < i; ++i_prev) {
-                long long d = A[i] - A[i_prev];
-                if (dp[i_prev][j - 1].count(d)) {
-                    dp[i][j][d] = (dp[i][j][d] + dp[i_prev][j - 1][d]) % MOD;
+    while (!pq.empty()) {
+        ll a = pq.top();
+        pq.pop();
+        if (a % 2 == 0) {
+            if (num_evens < 2) {
+                even_ans += a;
+                num_evens++;
+                if (num_evens == 2) {
+                    chmax(ans, even_ans);
+                }
+            }
+        } else {
+            if (num_odds < 2) {
+                odd_ans += a;
+                num_odds++;
+                if (num_odds == 2) {
+                    chmax(ans, odd_ans);
                 }
             }
         }
     }
-
-    // Calculate the result for each length k
-    for (int k = 1; k <= N; ++k) {
-        long long result = 0;
-        for (int i = 0; i < N; ++i) {
-            for (const auto& [d, count] : dp[i][k]) {
-                result = (result + count) % MOD;
-            }
-        }
-        cout << result << endl;
+    if (ans == 0) {
+        print(-1);
+    } else {
+        print(ans);
     }
 
     return 0;

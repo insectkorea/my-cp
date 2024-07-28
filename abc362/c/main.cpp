@@ -4,6 +4,7 @@
  **/
 
 #include <bits/stdc++.h>
+
 #include <atcoder/all>
 using namespace std;
 using namespace atcoder;
@@ -74,8 +75,30 @@ template <typename T> inline bool chmax(T& a, const T& b) {bool compare = a < b;
 // template <typename T> inline T lcm(T a, T b) {return (a * b) / gcd(a, b);}
 // clang-format on
 
-int main()
-{
-    // code
+int main() {
+    // codine
+    int n;
+    cin >> n;
+    vector<pair<ll, ll>> a(n);
+    ll mmin = 0;
+    ll max = 0;
+    rep(i, n) {
+        cin >> a[i].first >> a[i].second;
+        mmin += a[i].first;
+        max += a[i].second;
+    }
+    if (mmin > 0 || max < 0) {
+        print("No");
+        return 0;
+    }
+
+    print("Yes");
+
+    rep(i, n) {
+        int d = min(a[i].second - a[i].first, -mmin);
+        mmin += d;
+        cout << d + a[i].first << " ";
+    }
+    cout << endl;
     return 0;
 }

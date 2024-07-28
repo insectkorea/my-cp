@@ -75,48 +75,44 @@ template <typename T> inline bool chmax(T& a, const T& b) {bool compare = a < b;
 // template <typename T> inline T lcm(T a, T b) {return (a * b) / gcd(a, b);}
 // clang-format on
 
-const int MOD = 998244353;
-
 int main() {
-    int N;
-    cin >> N;
-    vector<long long> A(N);
-    for (int i = 0; i < N; ++i) {
-        cin >> A[i];
-    }
+    ll x, y, a, b, c;
+    cin >> x >> y >> a >> b >> c;
+    vll p(a);
+    rep(i, a) cin >> p[i];
+    vll q(b);
+    rep(i, b) cin >> q[i];
+    vll r(c);
+    rep(i, c) cin >> r[i];
 
-    // dp[i][j][d] - number of subsequences of length j ending at index i with
-    // common difference d
-    vector<vector<unordered_map<long long, long long>>> dp(
-        N, vector<unordered_map<long long, long long>>(N + 1));
+    sort(p.rbegin(), p.rend());
+    sort(q.rbegin(), q.rend());
+    sort(r.rbegin(), r.rend());
 
-    // Initialize the dp array for subsequences of length 1
-    for (int i = 0; i < N; ++i) {
-        dp[i][1][0] = 1;
-    }
-
-    // Fill the dp table
-    for (int j = 2; j <= N; ++j) {
-        for (int i = 0; i < N; ++i) {
-            for (int i_prev = 0; i_prev < i; ++i_prev) {
-                long long d = A[i] - A[i_prev];
-                if (dp[i_prev][j - 1].count(d)) {
-                    dp[i][j][d] = (dp[i][j][d] + dp[i_prev][j - 1][d]) % MOD;
-                }
+    ll sum = 0;
+    int px = 0, py = 0, pc = 0;
+    rep(i, x) { sum += p[i]; }
+    rep(i, y) { sum += q[i]; }
+    rep(i, c) {
+        ll min_val = min(p[x - 1], q[y - 1]);
+        if (min_val < r[i]) {
+            if (min_val == p[x - 1] && x > 0) {
+                sum += r[i] - min_val;
+                x--;
+            } else if (min_val == q[y - 1] && y > 0) {
+                sum += r[i] - min_val;
+                y--;
+            } else if (p[x - 1] < r[i] && x > 0) {
+                sum += r[i] - p[x - 1];
+                x--;
+            } else if (q[y - 1] < r[i] && y > 0) {
+                sum += r[i] - q[y - 1];
+                y--;
             }
         }
     }
 
-    // Calculate the result for each length k
-    for (int k = 1; k <= N; ++k) {
-        long long result = 0;
-        for (int i = 0; i < N; ++i) {
-            for (const auto& [d, count] : dp[i][k]) {
-                result = (result + count) % MOD;
-            }
-        }
-        cout << result << endl;
-    }
-
+    print(sum);
+    // code
     return 0;
 }

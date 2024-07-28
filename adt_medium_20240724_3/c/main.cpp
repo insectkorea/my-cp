@@ -75,48 +75,35 @@ template <typename T> inline bool chmax(T& a, const T& b) {bool compare = a < b;
 // template <typename T> inline T lcm(T a, T b) {return (a * b) / gcd(a, b);}
 // clang-format on
 
-const int MOD = 998244353;
+bool isConfusingTime(int h, int m) {
+    string sh = to_string(h);
+    if (sh.size() < 2) sh = "0" + sh;
+    string sm = to_string(m);
+    if (sm.size() < 2) sm = "0" + sm;
+
+    string rh = string(1, sh[0]) + string(1, sm[0]);
+    string rm = string(1, sh[1]) + string(1, sm[1]);
+    int nh = stoi(rh);
+    int nm = stoi(rm);
+    return 0 <= nh && nh < 24 && 0 <= nm && nm < 60;
+}
 
 int main() {
-    int N;
-    cin >> N;
-    vector<long long> A(N);
-    for (int i = 0; i < N; ++i) {
-        cin >> A[i];
-    }
-
-    // dp[i][j][d] - number of subsequences of length j ending at index i with
-    // common difference d
-    vector<vector<unordered_map<long long, long long>>> dp(
-        N, vector<unordered_map<long long, long long>>(N + 1));
-
-    // Initialize the dp array for subsequences of length 1
-    for (int i = 0; i < N; ++i) {
-        dp[i][1][0] = 1;
-    }
-
-    // Fill the dp table
-    for (int j = 2; j <= N; ++j) {
-        for (int i = 0; i < N; ++i) {
-            for (int i_prev = 0; i_prev < i; ++i_prev) {
-                long long d = A[i] - A[i_prev];
-                if (dp[i_prev][j - 1].count(d)) {
-                    dp[i][j][d] = (dp[i][j][d] + dp[i_prev][j - 1][d]) % MOD;
-                }
+    int h, m;
+    cin >> h >> m;
+    while (h < 24) {
+        if (isConfusingTime(h, m)) {
+            cout << h << " " << m << endl;
+            return 0;
+        }
+        m++;
+        if (m == 60) {
+            h++;
+            m = 0;
+            if (h == 24) {
+                h = 0;
             }
         }
     }
-
-    // Calculate the result for each length k
-    for (int k = 1; k <= N; ++k) {
-        long long result = 0;
-        for (int i = 0; i < N; ++i) {
-            for (const auto& [d, count] : dp[i][k]) {
-                result = (result + count) % MOD;
-            }
-        }
-        cout << result << endl;
-    }
-
     return 0;
 }

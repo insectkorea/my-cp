@@ -75,48 +75,29 @@ template <typename T> inline bool chmax(T& a, const T& b) {bool compare = a < b;
 // template <typename T> inline T lcm(T a, T b) {return (a * b) / gcd(a, b);}
 // clang-format on
 
-const int MOD = 998244353;
-
 int main() {
-    int N;
-    cin >> N;
-    vector<long long> A(N);
-    for (int i = 0; i < N; ++i) {
-        cin >> A[i];
+    // code
+    int H, W, N, h, w;
+    cin >> H >> W >> N >> h >> w;
+    vector<vector<int>> a(H, vector<int>(W));
+    unordered_map<int, int> cnt;
+    rep(i, H) rep(j, W) {
+        cin >> a[i][j];
+        cnt[a[i][j]]++;
     }
 
-    // dp[i][j][d] - number of subsequences of length j ending at index i with
-    // common difference d
-    vector<vector<unordered_map<long long, long long>>> dp(
-        N, vector<unordered_map<long long, long long>>(N + 1));
+    rep(i, H - h + 1) {
+        rep(j, W - w + 1) {
+            unordered_map<int, int> tmp_cnt;
+            int ans = cnt.size();
+            rep(k, h) rep(l, w) { tmp_cnt[a[i + k][j + l]]++; }
 
-    // Initialize the dp array for subsequences of length 1
-    for (int i = 0; i < N; ++i) {
-        dp[i][1][0] = 1;
-    }
-
-    // Fill the dp table
-    for (int j = 2; j <= N; ++j) {
-        for (int i = 0; i < N; ++i) {
-            for (int i_prev = 0; i_prev < i; ++i_prev) {
-                long long d = A[i] - A[i_prev];
-                if (dp[i_prev][j - 1].count(d)) {
-                    dp[i][j][d] = (dp[i][j][d] + dp[i_prev][j - 1][d]) % MOD;
-                }
-            }
+            for (auto&& p : tmp_cnt)
+                if (cnt[p.first] == p.second) ans--;
+            cout << ans << " ";
         }
+        cout << endl;
     }
-
-    // Calculate the result for each length k
-    for (int k = 1; k <= N; ++k) {
-        long long result = 0;
-        for (int i = 0; i < N; ++i) {
-            for (const auto& [d, count] : dp[i][k]) {
-                result = (result + count) % MOD;
-            }
-        }
-        cout << result << endl;
-    }
-
+    cout << endl;
     return 0;
 }
