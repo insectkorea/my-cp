@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20240919_1",
+    "title": "AtCoder Daily Training MEDIUM 2024/09/19 16:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20240919_1"
+  },
+  "tasks": [
+    {
+      "id": "abc225_b",
+      "label": "C",
+      "title": "Star or Not",
+      "url": "https://atcoder.jp/contests/adt_medium_20240919_1/tasks/abc225_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc229_b",
+      "label": "D",
+      "title": "Hard Calculation",
+      "url": "https://atcoder.jp/contests/adt_medium_20240919_1/tasks/abc229_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc291_c",
+      "label": "E",
+      "title": "LRUD Instructions 2",
+      "url": "https://atcoder.jp/contests/adt_medium_20240919_1/tasks/abc291_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc359_c",
+      "label": "F",
+      "title": "Tile Distance 2",
+      "url": "https://atcoder.jp/contests/adt_medium_20240919_1/tasks/abc359_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc227_d",
+      "label": "G",
+      "title": "Project Planning",
+      "url": "https://atcoder.jp/contests/adt_medium_20240919_1/tasks/abc227_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

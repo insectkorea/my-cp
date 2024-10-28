@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20240924_1",
+    "title": "AtCoder Daily Training MEDIUM 2024/09/24 15:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20240924_1"
+  },
+  "tasks": [
+    {
+      "id": "abc262_b",
+      "label": "C",
+      "title": "Triangle (Easier)",
+      "url": "https://atcoder.jp/contests/adt_medium_20240924_1/tasks/abc262_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc285_b",
+      "label": "D",
+      "title": "Longest Uncommon Prefix",
+      "url": "https://atcoder.jp/contests/adt_medium_20240924_1/tasks/abc285_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc344_c",
+      "label": "E",
+      "title": "A+B+C",
+      "url": "https://atcoder.jp/contests/adt_medium_20240924_1/tasks/abc344_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc347_c",
+      "label": "F",
+      "title": "Ideal Holidays",
+      "url": "https://atcoder.jp/contests/adt_medium_20240924_1/tasks/abc347_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc291_d",
+      "label": "G",
+      "title": "Flip Cards",
+      "url": "https://atcoder.jp/contests/adt_medium_20240924_1/tasks/abc291_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

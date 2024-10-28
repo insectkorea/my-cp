@@ -75,51 +75,44 @@ template <typename T> inline bool chmax(T& a, const T& b) {bool compare = a < b;
 // template <typename T> inline T lcm(T a, T b) {return (a * b) / gcd(a, b);}
 // clang-format on
 
-// dijkstra
-// dijkstra
-vll dijkstra(int n, vector<vector<pair<ll, ll>>> g, ll initial_value) {
-    priority_queue<pair<ll, int>, vector<pair<ll, int>>, greater<pair<ll, int>>>
-        que;
-    vll min_cost(n, LLONG_MAX);
-    que.push({initial_value, 0});
-    min_cost[0] = initial_value;
-    while (!que.empty()) {
-        auto [d, u] = que.top();
-        que.pop();
-        if (min_cost[u] != d) continue;
-        for (auto [b, v] : g[u]) {
-            ll new_dist = min_cost[u] + b;
-            if (min_cost[v] <= new_dist) continue;
-            min_cost[v] = new_dist;
-            que.push({new_dist, v});
+vll dijkstra(vector<vector<pair<ll, ll>>>& graph, int n, vll& a_arr) {
+    priority_queue<pair<ll, ll>, vector<pair<ll, ll>>, greater<pair<ll, ll>>> q;
+    vll dist(n, 1e18);
+    q.push({a_arr[0], 0});
+    while (!q.empty()) {
+        ll d = q.top().first;
+        ll a = q.top().second;
+        q.pop();
+        if (d > dist[a]) continue;
+        dist[a] = d;
+        for (auto [b, w] : graph[a]) {
+            if (dist[a] + w + a_arr[b] < dist[b]) {
+                dist[b] = dist[a] + w + a_arr[b];
+                q.push({dist[b], b});
+            }
         }
     }
-    return min_cost;
+    return dist;
 }
 
 int main() {
     // code
     int n, m;
     cin >> n >> m;
-
     vll a(n);
-    rep(i, n) cin >> a[i];
-
-    vector<vector<pair<ll, ll>>> g(n);
+    rep(i, n) { cin >> a[i]; }
+    vector<vector<pair<ll, ll>>> graph(n);
     rep(i, m) {
-        int u, v;
-        ll b;
+        ll u, v, b;
         cin >> u >> v >> b;
         u--;
         v--;
-        g[u].pb({b + a[v], v});
-        g[v].pb({b + a[u], u});
+        graph[u].pb(mp(v, b));
+        graph[v].pb(mp(u, b));
     }
-
-    vll min_cost = dijkstra(n, g, a[0]);
-
+    auto dist = dijkstra(graph, n, a);
     for (int i = 1; i < n; i++) {
-        cout << min_cost[i] << " \n"[i == n - 1];
+        cout << dist[i] << " ";
     }
 
     return 0;

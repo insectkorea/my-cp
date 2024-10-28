@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20240808_2",
+    "title": "AtCoder Daily Training MEDIUM 2024/08/08 18:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20240808_2"
+  },
+  "tasks": [
+    {
+      "id": "abc265_b",
+      "label": "C",
+      "title": "Explore",
+      "url": "https://atcoder.jp/contests/adt_medium_20240808_2/tasks/abc265_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc296_b",
+      "label": "D",
+      "title": "Chessboard",
+      "url": "https://atcoder.jp/contests/adt_medium_20240808_2/tasks/abc296_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc274_c",
+      "label": "E",
+      "title": "Ameba",
+      "url": "https://atcoder.jp/contests/adt_medium_20240808_2/tasks/abc274_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc351_c",
+      "label": "F",
+      "title": "Merge the balls",
+      "url": "https://atcoder.jp/contests/adt_medium_20240808_2/tasks/abc351_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc313_d",
+      "label": "G",
+      "title": "Odd or Even",
+      "url": "https://atcoder.jp/contests/adt_medium_20240808_2/tasks/abc313_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

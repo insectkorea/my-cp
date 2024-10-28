@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20240904_2",
+    "title": "AtCoder Daily Training MEDIUM 2024/09/04 18:00start",
+    "url": "https://atcoder.jp/contests/adt_medium_20240904_2"
+  },
+  "tasks": [
+    {
+      "id": "abc261_b",
+      "label": "C",
+      "title": "Tournament Result",
+      "url": "https://atcoder.jp/contests/adt_medium_20240904_2/tasks/abc261_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc324_b",
+      "label": "D",
+      "title": "3-smooth Numbers",
+      "url": "https://atcoder.jp/contests/adt_medium_20240904_2/tasks/abc324_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc214_c",
+      "label": "E",
+      "title": "Distribution",
+      "url": "https://atcoder.jp/contests/adt_medium_20240904_2/tasks/abc214_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc268_c",
+      "label": "F",
+      "title": "Chinese Restaurant",
+      "url": "https://atcoder.jp/contests/adt_medium_20240904_2/tasks/abc268_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc299_d",
+      "label": "G",
+      "title": "Find by Query",
+      "url": "https://atcoder.jp/contests/adt_medium_20240904_2/tasks/abc299_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

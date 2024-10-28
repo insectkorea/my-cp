@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20240808_3",
+    "title": "AtCoder Daily Training MEDIUM 2024/08/08 20:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20240808_3"
+  },
+  "tasks": [
+    {
+      "id": "abc290_b",
+      "label": "C",
+      "title": "Qual B",
+      "url": "https://atcoder.jp/contests/adt_medium_20240808_3/tasks/abc290_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc313_b",
+      "label": "D",
+      "title": "Who is Saikyo?",
+      "url": "https://atcoder.jp/contests/adt_medium_20240808_3/tasks/abc313_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc352_c",
+      "label": "E",
+      "title": "Standing On The Shoulders",
+      "url": "https://atcoder.jp/contests/adt_medium_20240808_3/tasks/abc352_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc251_c",
+      "label": "F",
+      "title": "Poem Online Judge",
+      "url": "https://atcoder.jp/contests/adt_medium_20240808_3/tasks/abc251_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc275_d",
+      "label": "G",
+      "title": "Yet Another Recursive Function",
+      "url": "https://atcoder.jp/contests/adt_medium_20240808_3/tasks/abc275_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

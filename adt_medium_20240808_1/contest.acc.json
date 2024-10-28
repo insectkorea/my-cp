@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20240808_1",
+    "title": "AtCoder Daily Training MEDIUM 2024/08/08 16:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20240808_1"
+  },
+  "tasks": [
+    {
+      "id": "abc341_b",
+      "label": "C",
+      "title": "Foreign Exchange",
+      "url": "https://atcoder.jp/contests/adt_medium_20240808_1/tasks/abc341_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc334_b",
+      "label": "D",
+      "title": "Christmas Trees",
+      "url": "https://atcoder.jp/contests/adt_medium_20240808_1/tasks/abc334_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc285_c",
+      "label": "E",
+      "title": "abc285_brutmhyhiizp",
+      "url": "https://atcoder.jp/contests/adt_medium_20240808_1/tasks/abc285_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc338_c",
+      "label": "F",
+      "title": "Leftover Recipes",
+      "url": "https://atcoder.jp/contests/adt_medium_20240808_1/tasks/abc338_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc273_d",
+      "label": "G",
+      "title": "LRUD Instructions",
+      "url": "https://atcoder.jp/contests/adt_medium_20240808_1/tasks/abc273_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

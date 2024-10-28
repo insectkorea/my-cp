@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20240912_3",
+    "title": "AtCoder Daily Training MEDIUM 2024/09/12 20:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20240912_3"
+  },
+  "tasks": [
+    {
+      "id": "abc317_b",
+      "label": "C",
+      "title": "MissingNo.",
+      "url": "https://atcoder.jp/contests/adt_medium_20240912_3/tasks/abc317_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc237_b",
+      "label": "D",
+      "title": "Matrix Transposition",
+      "url": "https://atcoder.jp/contests/adt_medium_20240912_3/tasks/abc237_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc321_c",
+      "label": "E",
+      "title": "321-like Searcher",
+      "url": "https://atcoder.jp/contests/adt_medium_20240912_3/tasks/abc321_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc332_c",
+      "label": "F",
+      "title": "T-shirts",
+      "url": "https://atcoder.jp/contests/adt_medium_20240912_3/tasks/abc332_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc313_d",
+      "label": "G",
+      "title": "Odd or Even",
+      "url": "https://atcoder.jp/contests/adt_medium_20240912_3/tasks/abc313_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

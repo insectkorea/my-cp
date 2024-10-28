@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20240905_2",
+    "title": "AtCoder Daily Training MEDIUM 2024/09/05 18:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20240905_2"
+  },
+  "tasks": [
+    {
+      "id": "abc294_b",
+      "label": "C",
+      "title": "ASCII Art",
+      "url": "https://atcoder.jp/contests/adt_medium_20240905_2/tasks/abc294_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc215_b",
+      "label": "D",
+      "title": "log2(N)",
+      "url": "https://atcoder.jp/contests/adt_medium_20240905_2/tasks/abc215_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc216_c",
+      "label": "E",
+      "title": "Many Balls",
+      "url": "https://atcoder.jp/contests/adt_medium_20240905_2/tasks/abc216_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc217_c",
+      "label": "F",
+      "title": "Inverse of Permutation",
+      "url": "https://atcoder.jp/contests/adt_medium_20240905_2/tasks/abc217_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc283_d",
+      "label": "G",
+      "title": "Scope",
+      "url": "https://atcoder.jp/contests/adt_medium_20240905_2/tasks/abc283_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

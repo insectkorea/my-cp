@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20240806_3",
+    "title": "AtCoder Daily Training MEDIUM 2024/08/06 19:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20240806_3"
+  },
+  "tasks": [
+    {
+      "id": "abc220_b",
+      "label": "C",
+      "title": "Base K",
+      "url": "https://atcoder.jp/contests/adt_medium_20240806_3/tasks/abc220_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc219_b",
+      "label": "D",
+      "title": "Maritozzo",
+      "url": "https://atcoder.jp/contests/adt_medium_20240806_3/tasks/abc219_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc250_c",
+      "label": "E",
+      "title": "Adjacent Swaps",
+      "url": "https://atcoder.jp/contests/adt_medium_20240806_3/tasks/abc250_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc302_c",
+      "label": "F",
+      "title": "Almost Equal",
+      "url": "https://atcoder.jp/contests/adt_medium_20240806_3/tasks/abc302_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc280_d",
+      "label": "G",
+      "title": "Factorial and Multiple",
+      "url": "https://atcoder.jp/contests/adt_medium_20240806_3/tasks/abc280_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

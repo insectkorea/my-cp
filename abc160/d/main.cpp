@@ -4,6 +4,7 @@
  **/
 
 #include <bits/stdc++.h>
+
 #include <atcoder/all>
 using namespace std;
 using namespace atcoder;
@@ -74,8 +75,45 @@ template <typename T> inline bool chmax(T& a, const T& b) {bool compare = a < b;
 // template <typename T> inline T lcm(T a, T b) {return (a * b) / gcd(a, b);}
 // clang-format on
 
-int main()
-{
+int main() {
     // code
+    int n, x, y;
+    cin >> n >> x >> y;
+
+    vector<vi> graph(n);
+
+    rep(i, n - 1) {
+        graph[i].pb(i + 1);
+        graph[i + 1].pb(i);
+    }
+    graph[x - 1].pb(y - 1);
+    graph[y - 1].pb(x - 1);
+    map<int, int> m;
+
+    rep(i, n) {
+        vi dist(n, 1e8);
+        dist[i] = 0;
+        priority_queue<pii, vector<pii>, greater<pii>> que;
+        que.push(mp(0, i));
+
+        while (!que.empty()) {
+            auto p = que.top();
+            que.pop();
+            int v = p.second;
+            int d = p.first;
+
+            for (auto&& u : graph[v]) {
+                if (dist[u] > dist[v] + 1) {
+                    dist[u] = dist[v] + 1;
+                    que.push({dist[u], u});
+                }
+            }
+        }
+        rep(j, n) { m[dist[j]]++; }
+    }
+    for (int i = 1; i < n; i++) {
+        print(m[i] / 2);
+    }
+
     return 0;
 }

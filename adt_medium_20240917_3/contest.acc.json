@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20240917_3",
+    "title": "AtCoder Daily Training MEDIUM 2024/09/17 19:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20240917_3"
+  },
+  "tasks": [
+    {
+      "id": "abc267_b",
+      "label": "C",
+      "title": "Split?",
+      "url": "https://atcoder.jp/contests/adt_medium_20240917_3/tasks/abc267_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc314_b",
+      "label": "D",
+      "title": "Roulette",
+      "url": "https://atcoder.jp/contests/adt_medium_20240917_3/tasks/abc314_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc334_c",
+      "label": "E",
+      "title": "Socks 2",
+      "url": "https://atcoder.jp/contests/adt_medium_20240917_3/tasks/abc334_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc315_c",
+      "label": "F",
+      "title": "Flavors",
+      "url": "https://atcoder.jp/contests/adt_medium_20240917_3/tasks/abc315_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc342_d",
+      "label": "G",
+      "title": "Square Pair",
+      "url": "https://atcoder.jp/contests/adt_medium_20240917_3/tasks/abc342_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

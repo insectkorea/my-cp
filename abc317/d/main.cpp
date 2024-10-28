@@ -4,6 +4,7 @@
  **/
 
 #include <bits/stdc++.h>
+
 #include <atcoder/all>
 using namespace std;
 using namespace atcoder;
@@ -73,35 +74,24 @@ template <typename T> inline bool chmax(T& a, const T& b) {bool compare = a < b;
 // template <typename T> T gcd(T a, T b) {if (b == 0)return a; else return gcd(b, a % b);}
 // template <typename T> inline T lcm(T a, T b) {return (a * b) / gcd(a, b);}
 // clang-format on
-int main()
-{
+int main() {
     int n;
     cin >> n;
-    long long INF = 1LL << 50;
-    vector<int> x(n + 1, 0), y(n + 1, 0), z(n + 1, 0);
-    rrep(i, n) cin >> x[i] >> y[i] >> z[i];
+    vll x(n), y(n), z(n);
 
-    int sum_z = reduce(all(z));
-    vector<vector<ll>> dp(n + 1, vector<ll>(sum_z + 1, INF));
+    rep(i, n) { cin >> x[i] >> y[i] >> z[i]; }
+    vector<vll> dp(n + 1, vll(1e5 + 1, 1e18));
     dp[0][0] = 0;
-    for (int i = 1; i < n + 1; i++)
-    {
-        int xx = x[i], yy = y[i], zz = z[i];
-        int w = max(0, (xx + yy) / 2 + 1 - xx);
-        for (int j = 0; j <= sum_z; j++)
-        {
-            if (j < zz)
-                dp[i][j] = dp[i - 1][j];
-            else
-                dp[i][j] = min(dp[i - 1][j], dp[i - 1][j - zz] + w);
-        }
+    ll sum_z = reduce(all(z));
+    rep(i, n) {
+        ll w = max(0ll, (y[i] - x[i] + 1) / 2);
+        rep(j, sum_z) {
+            dp[i + 1][j] = min(dp[i + 1][j], dp[i][j]);
+            dp[i + 1][j + z[i]] = min(dp[i + 1][j + z[i]], dp[i][j] + w);
+        };
     }
-    ll ans = INF;
-    for (int i = sum_z / 2 + 1; i <= sum_z; i++)
-    {
-        ans = min(ans, dp[n][i]);
-    }
+    ll ans = 1e18;
+    for (int i = sum_z / 2 + 1; i <= sum_z; i++) chmin(ans, dp[n][i]);
     print(ans);
-
     return 0;
 }
